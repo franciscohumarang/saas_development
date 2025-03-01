@@ -105,6 +105,13 @@ const Pricing = () => {
           ))}
         </div>
 
+        {/* Pricing Disclaimer */}
+        <div className="mt-12 mb-20 max-w-3xl mx-auto">
+          <p className="text-sm text-gray-400 text-center">
+            <span className="font-semibold text-gray-300">Note:</span> Prices cover development and support only. Additional costs may apply for hosting services, backend infrastructure, third-party integrations (e.g., AI services, payment processors), and premium plugins/libraries. I&apos;ll provide detailed infrastructure recommendations and cost estimates during our consultation.
+          </p>
+        </div>
+
         {/* DIY Playbook Section */}
         <div className="mt-20 max-w-2xl mx-auto text-center">
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
