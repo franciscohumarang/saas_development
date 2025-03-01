@@ -97,7 +97,7 @@ const FAQ = () => {
 
         <div className="text-center mt-12">
           <a
-            href="https://X.com/@frankhhsq"
+            href="https://X.com/@frankhhq"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400 hover:text-blue-300 font-semibold inline-flex items-center"
