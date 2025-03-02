@@ -36,9 +36,14 @@ const Header = () => {
                 {item.label}
               </a>
             ))}
-            <button className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-all">
+            <a 
+              href="https://calendly.com/buildwithai/1-hr-meeting"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-all"
+            >
               Book a Call
-            </button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -93,12 +98,15 @@ const Header = () => {
                   {item.label}
                 </a>
               ))}
-              <button
-                className="w-full mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-all"
+              <a
+                href="https://calendly.com/buildwithai/1-hr-meeting"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block w-full mt-4 bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition-all text-center"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Book a Call
-              </button>
+              </a>
             </div>
           </div>
         )}
