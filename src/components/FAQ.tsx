@@ -40,7 +40,7 @@ const FAQ = () => {
     },
     {
       question: 'What if I don\'t have a solid idea yet?',
-      answer: 'Start with the Validation Pack ($500). I&apos;ll help test your idea before you spend more on development.',
+      answer: 'Start with the Validation Pack ($500). I\'ll help test your idea before you spend more on development.',
     },
     {
       question: 'What\'s the difference between MVP & Full SaaS?',
@@ -48,7 +48,7 @@ const FAQ = () => {
     },
     {
       question: 'Will I own 100% of my SaaS?',
-      answer: 'Yes! You&apos;ll own everything—code, revenue, and IP.',
+      answer: 'Yes! You\'ll own everything—code, revenue, and IP.',
     },
     {
       question: 'What technologies do you use?',

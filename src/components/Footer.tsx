@@ -11,6 +11,15 @@ const Footer = () => {
 
   const socialLinks = [
     { 
+      label: 'Email', 
+      href: 'mailto:hello@buildwithai.me',
+      icon: (
+        <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+      )
+    },
+    { 
       label: 'X (Twitter)', 
       href: 'https://X.com/@frankhhq',
       icon: (
@@ -40,7 +49,7 @@ const Footer = () => {
               <svg className="w-6 h-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
-              SaaS Dev AI
+              Build With AI
             </Link>
             <p className="mt-4 text-gray-400">
               Helping non-tech founders launch profitable SaaS products with AI-powered development.
@@ -69,7 +78,7 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-gray-800 text-center text-gray-400">
-          <p>© {currentYear} SaaS Dev AI. All rights reserved.</p>
+          <p>© {currentYear} Build With AI. All rights reserved.</p>
         </div>
       </div>
     </footer>

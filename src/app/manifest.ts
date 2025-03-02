@@ -2,8 +2,8 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'SaaS Dev AI - AI-Powered Development for Non-Tech Founders',
-    short_name: 'SaaS Dev AI',
+    name: 'Build With AI - AI-Powered Development for Non-Tech Founders',
+    short_name: 'Build With AI',
     description: 'Transform your idea into a MicroSaaS in 4-5 weeks. Done-for-you development using AI tools.',
     start_url: '/',
     display: 'standalone',
