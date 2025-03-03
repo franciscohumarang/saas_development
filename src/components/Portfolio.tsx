@@ -12,13 +12,13 @@ export default function Portfolio() {
     {
       title: "CrushFlow",
       description: "AI-powered sales automation platform that helps businesses streamline their sales process and close more deals.",
-      image: "/crushFlow.png",
+      image: "/crushFlow.PNG",
       url: "https://crushflow.pages.dev"
     },
     {
       title: "ProfilelyAI",
       description: "AI-driven platform for generating customer insights for marketing, product, sales, and HR teams.",
-      image: "/PAI.png",
+      image: "/PAI.PNG",
       url: "https://profilelyai.com"
     },
     {
