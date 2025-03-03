@@ -37,7 +37,7 @@ export default function Portfolio() {
             My SaaS Projects
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            I&apos;ve successfully built and launched these SaaS products using the same AI-powered development approach I'll use for your project
+            I&apos;ve successfully built and launched these SaaS products using the same AI-powered development approach I&apos;ll use for your project
           </p>
         </div>
 
