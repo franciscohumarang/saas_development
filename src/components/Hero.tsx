@@ -8,9 +8,9 @@ export default function Hero() {
           <div className="w-full lg:w-1/2">
             <div className="mb-12 lg:mb-0 max-w-[570px]">
               <h1 className="mb-6 text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-white">
-                From Idea to SaaS{" "}
+                Build Better Business Solutions with{" "}
                 <span className="text-gradient bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-                 <br /> Build Faster, Launch Smarter
+                 <br /> Modern Technology
                 </span>
               </h1>
               <ul className="mb-8 space-y-3">
@@ -18,19 +18,19 @@ export default function Hero() {
                   <svg className="w-6 h-6 text-green-400 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Rapid Development Without Cutting Corners
+                  Custom Solutions That Scale With Your Business
                 </li>
                 <li className="flex items-start text-lg md:text-xl text-gray-400">
                   <svg className="w-6 h-6 text-green-400 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Built for Non-Tech Founders Who Want Results
+                  Smart Automation & AI Where It Matters Most
                 </li>
                 <li className="flex items-start text-lg md:text-xl text-gray-400">
                   <svg className="w-6 h-6 text-green-400 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
-                  Done-for-You AI-Assisted SaaS Development
+                  Rapid Development using AI and New Technologies
                 </li>
               </ul>
               <div className="flex flex-col sm:flex-row gap-4">

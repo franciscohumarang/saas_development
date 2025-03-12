@@ -33,38 +33,30 @@ const FAQAccordion = ({ question, answer, isOpen, onClick }: FAQItem & { isOpen:
 const FAQ = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const faqItems: FAQItem[] = [
+  const faqItems = [
     {
-      question: 'How long does it take?',
-      answer: '🕒 Validation Pack ($500) → 3 days with up to 2 revisions. \n 🕒 MVP SaaS ($2,500) → 4-6 Weeks\n🕒 Full SaaS ($6,900) → 8-12 Weeks',
+      question: "How can AI transform my business operations?",
+      answer: "AI can revolutionize your business by automating repetitive tasks, providing data-driven insights, and creating intelligent workflows. I help businesses implement AI solutions for customer service automation, predictive analytics, process optimization, and smart decision-making systems. The result is increased efficiency, reduced costs, and improved customer satisfaction."
     },
     {
-      question: 'What if I don\'t have a solid idea yet?',
-      answer: 'Start with the Validation Pack ($500). I\'ll help test your idea before you spend more on development.',
+      question: "What types of AI solutions do you implement?",
+      answer: "I specialize in practical AI implementations including natural language processing for customer service, machine learning for business analytics, automated workflow systems, and intelligent process automation. Each solution is customized to your specific business needs and integrated seamlessly with your existing systems."
     },
     {
-      question: 'What\'s the difference between MVP & Full SaaS?',
-      answer: 'MVP = Core features, quick launch, perfect for validation.\nFull SaaS = More features, better UX, automation, built for scaling.',
+      question: "How do you ensure AI solutions deliver business value?",
+      answer: "I follow a value-first approach: First, I identify specific business processes where AI can create the most impact. Then, I develop and implement solutions with clear ROI metrics. Throughout the process, I focus on practical applications that deliver tangible business results rather than implementing AI just for the sake of it."
     },
     {
-      question: 'Will I own 100% of my SaaS?',
-      answer: 'Yes! You\'ll own everything—code, revenue, and IP.',
+      question: "What's your development timeline?",
+      answer: "Most AI solutions can be implemented in 4-8 weeks, depending on complexity. I use a rapid development approach that combines pre-built AI components with custom development to deliver results quickly. You'll see progress within the first few weeks."
     },
     {
-      question: 'What technologies do you use?',
-      answer: 'For frontend, I use NextJS/React to build modern, fast web applications. For backend, I leverage serverless solutions like Cloudflare Workers, and databases like Supabase or Firebase. CloudFlare Pages for hosting. If you need a traditional backend, I use C# or Python. For mobile apps, I use React Native to build cross-platform solutions.',
+      question: "How do you handle data security with AI implementations?",
+      answer: "Security is paramount when dealing with AI and data. I implement enterprise-grade security measures including encrypted data processing, secure API integrations, and compliance with data protection regulations. All AI solutions are built with privacy-by-design principles."
     },
     {
-      question: 'What if I need custom features?',
-      answer: 'I can add custom features at an extra cost after your launch.',
-    },
-    {
-      question: 'Do you offer refunds?',
-      answer: 'No refunds, but I guarantee a high-quality product that meets your requirements.',
-    },
-    {
-      question: 'What exactly is the Full SaaS package suitable for?',
-      answer: 'The Full SaaS package is designed for focused, single-purpose applications that serve small to medium-sized businesses. It\'s perfect for implementing core business features, standard payment systems, user authentication, and basic admin dashboards. Think of it as a complete but streamlined solution for your specific business need.\n\nHowever, it\'s important to note what this package is NOT designed for. This is not suitable for enterprise-grade applications, multi-tenant architectures, or complex systems requiring microservices. It won\'t support custom AI/ML implementations or applications needing extreme scalability (millions of users). If you need these advanced features, you\'ll need a more comprehensive enterprise solution.',
+      question: "What ongoing support do you provide?",
+      answer: "I provide comprehensive support including AI model maintenance, system optimization, and performance monitoring. I also offer training for your team to effectively use and manage the AI solutions, plus regular updates to improve system performance based on new data and requirements."
     }
   ];
 

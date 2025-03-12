@@ -48,7 +48,7 @@ export default function PlaybookModal({ isOpen, onClose }: PlaybookModalProps) {
                 Get Notified When Ready
               </h3>
               <p className="text-gray-400 mb-4">
-                The DIY Playbook is currently being updated. Enter your email to be notified when it&apos;s available.
+                The Comrehensive Guide is currently being updated. Enter your email to be notified when it&apos;s available.
               </p>
 
               <form 
@@ -92,7 +92,7 @@ export default function PlaybookModal({ isOpen, onClose }: PlaybookModalProps) {
                   </div>
                   <div className="ml-3">
                     <label htmlFor="terms" className="text-sm text-gray-300">
-                      I agree to receive email notifications about the DIY Playbook
+                      I agree to receive email notifications about the Comprehensive Guide
                     </label>
                   </div>
                 </div>

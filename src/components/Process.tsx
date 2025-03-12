@@ -4,10 +4,10 @@ export default function Process() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            Here&apos;s How I&apos;ll Launch Your SaaS
+            My AI-Powered Development Process
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            A simple, proven process to turn your idea into a working SaaS product.
+            A cutting-edge approach that combines business expertise with AI innovation to transform your operations.
           </p>
         </div>
 
@@ -16,9 +16,9 @@ export default function Process() {
             <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mb-4">
               1
             </div>
-            <h3 className="text-xl font-semibold mb-2 text-white">Book a Call</h3>
+            <h3 className="text-xl font-semibold mb-2 text-white">AI Strategy Planning</h3>
             <p className="text-gray-400">
-              We&apos;ll hop on a 15-min call to discuss your idea and pick the right package. Quick, no-pressure chat.
+              I analyze your business processes and identify key areas where AI can drive the most value and automation opportunities.
             </p>
           </div>
 
@@ -26,9 +26,9 @@ export default function Process() {
             <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mb-4">
               2
             </div>
-            <h3 className="text-xl font-semibold mb-2 text-white">Build & Iterate</h3>
+            <h3 className="text-xl font-semibold mb-2 text-white">AI Solution Development</h3>
             <p className="text-gray-400">
-              I&apos;ll handle the AI-powered development while you focus on your business. You&apos;ll get regular updates and live strategy calls.
+              Using advanced AI tools and frameworks, I build custom solutions that automate tasks, enhance decision-making, and optimize workflows.
             </p>
           </div>
 
@@ -36,9 +36,9 @@ export default function Process() {
             <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mb-4">
               3
             </div>
-            <h3 className="text-xl font-semibold mb-2 text-white">Launch & Scale</h3>
+            <h3 className="text-xl font-semibold mb-2 text-white">Integration & Optimization</h3>
             <p className="text-gray-400">
-              Your SaaS goes live. I&apos;ll provide ongoing support to ensure it scales smoothly. Ready for growth.
+              Seamlessly integrate AI solutions into your existing systems and continuously optimize for maximum business impact.
             </p>
           </div>
         </div>

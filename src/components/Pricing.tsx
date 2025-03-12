@@ -48,43 +48,47 @@ const Pricing = () => {
 
   const tiers = [
     {
-      id: 'validation',
-      title: 'Validation Pack',
-      price: '$500',
+      id: 'standard',
+      title: 'Standard Solution',
+      price: '$2,500',
       features: [
-        'High-converting landing page to validate your idea',
-        'Lead capture with email integration',
-        '1 hour strategy call',
-        'Perfect for idea validation',
+        'Custom application development',
+        'Core business functionality',
+        'User authentication system',
+        'Basic process automation',
+        'Standard integrations',
+        '1-month technical support',
       ],
       ctaText: 'Book a Call',
     },
     {
-      id: 'mvp',
-      title: 'MVP SaaS',
-      price: '$2,500',
+      id: 'advanced',
+      title: 'Advanced Solution',
+      price: '$5,000',
       features: [
-        'Core features development',
-        'Payment system integration',
-        'User authentication',
-        'Basic admin dashboard',
-        '1-month support',
-      
+        'Everything in Standard, plus:',
+        'Advanced business automation',
+        'Smart workflow optimization',
+        'Data analytics dashboard',
+        'AI-powered features where needed',
+        '2-month technical support',
+        'Team training sessions',
       ],
       ctaText: 'Book a Call',
       isPopular: true,
     },
     {
-      id: 'full',
-      title: 'Full SaaS',
-      price: 'Starts at $6,000',
+      id: 'enterprise',
+      title: 'Enterprise Solution',
+      price: 'Custom',
       features: [
-        'Everything in MVP, plus:',
-        'Advanced features',
-        'Better UX & automation',
-        'API integrations',
-        '3-month support',
-        'Weekly strategy calls',
+        'Everything in Advanced, plus:',
+        'Full system integration',
+        'Custom AI implementation',
+        'Advanced security features',
+        'Dedicated support channel',
+        '3-month technical support',
+        'Priority development',
       ],
       ctaText: 'Book a Call',
     },
@@ -98,10 +102,10 @@ const Pricing = () => {
             <svg className="w-8 h-8 inline-block mr-2 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
             </svg>
-            Simple, Transparent Pricing
+            Solutions That Fit Your Business
           </h2>
           <p className="text-xl text-gray-400">
-            Choose the perfect package for your MicroSaaS journey
+            From traditional development to modern solutions - choose what works best for you
           </p>
         </div>
 
@@ -118,33 +122,39 @@ const Pricing = () => {
           </p>
         </div>
 
-        {/* DIY Playbook Section */}
-        <div className="mt-20 max-w-2xl mx-auto text-center">
+        {/* Modern Development Guide Section */}
+        <div className="text-center max-w-3xl mx-auto">
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
-            Still Unsure? Get the $99 Playbook!
+            Want to Learn More? Get My Modern Development Guide
           </h3>
           <div className="bg-gray-800 rounded-2xl shadow-xl p-8 border-2 border-blue-500/20">
             <h4 className="text-xl font-bold text-blue-400 mb-6">
-              📖 &ldquo;Launch Your SaaS with AI Tools – Step by Step&rdquo;
+              📖 &ldquo;Modern Development Techniques: A Comprehensive Guide to AI Integration & Rapid Development&rdquo;
             </h4>
             <ul className="space-y-4 mb-8 text-left">
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-400 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-300">Step-by-step guide based on real SaaS launches</span>
+                <span className="text-gray-300">Master advanced AI techniques: LLMs, Agents, RAG & enterprise integration patterns</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-400 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-300">Tools, templates & exact workflows</span>
+                <span className="text-gray-300">Step-by-step rapid development strategies with modern AI tools & frameworks</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-400 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span className="text-gray-300">Mistakes to avoid (so you don&apos;t waste time & money)</span>
+                <span className="text-gray-300">Real-world case studies & proven architectures for AI-powered solutions</span>
+              </li>
+              <li className="flex items-start">
+                <svg className="w-5 h-5 text-green-400 mr-2 flex-shrink-0 mt-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-gray-300">Exclusive access to code templates & implementation examples</span>
               </li>
             </ul>
             <button
@@ -154,7 +164,7 @@ const Pricing = () => {
               <svg className="w-5 h-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
               </svg>
-              🛒 Get the $99 Playbook
+              🛒 Get the Development Guide ($149)
             </button>
           </div>
         </div>
