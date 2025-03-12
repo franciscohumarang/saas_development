@@ -1,4 +1,5 @@
 'use client';
+
 import { useState } from 'react';
 import PlaybookModal from './PlaybookModal';
 
@@ -169,8 +170,9 @@ const Pricing = () => {
           </div>
         </div>
 
-        <PlaybookModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
+ 
       </div>
+      <PlaybookModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </section>
   );
 };
