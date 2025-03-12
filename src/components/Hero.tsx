@@ -10,7 +10,7 @@ export default function Hero() {
               <h1 className="mb-6 text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-white">
                 Build Better Business Solutions with{" "}
                 <span className="text-gradient bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-500">
-                 <br /> Modern Technologies
+                 <br /> AI-Powered Solutions
                 </span>
               </h1>
               <ul className="mb-8 space-y-3">
