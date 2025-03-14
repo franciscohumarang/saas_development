@@ -4,10 +4,10 @@ export default function Process() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-            My AI-Powered Development Process
+            How I Build Your App
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            A cutting-edge approach that combines business expertise with AI innovation to transform your operations.
+            A simple, transparent process focused on turning your vision into reality—without the technical complexity.
           </p>
         </div>
 
@@ -16,9 +16,9 @@ export default function Process() {
             <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mb-4">
               1
             </div>
-            <h3 className="text-xl font-semibold mb-2 text-white">AI Strategy Planning</h3>
+            <h3 className="text-xl font-semibold mb-2 text-white">Vision & Planning</h3>
             <p className="text-gray-400">
-              I analyze your business processes and identify key areas where AI can drive the most value and automation opportunities.
+              We start with your idea. I help you refine it, identify key features, and create a clear plan for success.
             </p>
           </div>
 
@@ -26,9 +26,9 @@ export default function Process() {
             <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mb-4">
               2
             </div>
-            <h3 className="text-xl font-semibold mb-2 text-white">AI Solution Development</h3>
+            <h3 className="text-xl font-semibold mb-2 text-white">Rapid Development</h3>
             <p className="text-gray-400">
-              Using advanced AI tools and frameworks, I build custom solutions that automate tasks, enhance decision-making, and optimize workflows.
+              Using modern tools and AI, I build your app efficiently while keeping you updated every step of the way.
             </p>
           </div>
 
@@ -36,9 +36,9 @@ export default function Process() {
             <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white font-bold mb-4">
               3
             </div>
-            <h3 className="text-xl font-semibold mb-2 text-white">Integration & Optimization</h3>
+            <h3 className="text-xl font-semibold mb-2 text-white">Launch & Support</h3>
             <p className="text-gray-400">
-              Seamlessly integrate AI solutions into your existing systems and continuously optimize for maximum business impact.
+              I handle the technical details of launching your app and provide ongoing support to ensure your success.
             </p>
           </div>
         </div>
